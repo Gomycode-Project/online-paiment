@@ -8,7 +8,7 @@ export const Login = () => {
             <input placeholder='Numéro de téléphone' type="number" />
             <input placeholder='Mot de passe' type="text" />
             <button>login</button>
-            <p>Don't have an account? <Register/></p>
+            <p>Don't have an account? Register </p>
         </form>
     </div>
   )
