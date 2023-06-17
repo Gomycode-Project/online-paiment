@@ -1,0 +1,4 @@
+.twoinputs {
+	display: flex;
+	flex-direction: row;
+}
