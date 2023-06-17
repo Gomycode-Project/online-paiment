@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+const {date, accNumber, value, solde} = props;
+
 function Acceuil(props) {
 	return (
 		<div>
@@ -10,6 +13,7 @@ function Acceuil(props) {
 				{/* condition? array.forEach(element => map activity here {
 				
 				});:null */}
+				
             	</div>
 			</div>
 			<div className="right">
