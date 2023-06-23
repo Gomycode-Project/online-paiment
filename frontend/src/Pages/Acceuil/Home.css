@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+body {
+	background: linear-gradient(
+		90deg,
+		rgb(31, 101, 51) 0%,
+		rgba(116, 185, 64, 0.87) 100%
+	);
+	color: white;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	font-size: 16px;
+}
+.solde-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	text-align: left;
+	background: rgba(255, 255, 255, 0.46);
+	padding: 15px 65px;
+	margin: 0px 15px;
+	backdrop-filter: blur(9.2px);
+	-webkit-backdrop-filter: blur(9.2px);
+	border-radius: 16px;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.solde-text {
+	font-size: 12px;
+	font-weight: 200;
+	margin-bottom: -5px;
+}
+.activity-container {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table {
+	flex-direction: column;
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right {
+	font-size: 26px;
+}
+.mobile-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: row;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left: -18px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.46);
+}
+.mobile-menu button {
+	background: none;
+	border: none;
+	color: white;
+	width: 50px;
+}
+.mobile-menu button:hover {
+	cursor: pointer;
+}
+@media only screen and (min-width: 416px) {
+	.solde-container {
+		padding: 25px 100px;
+	}
+	.solde-text {
+		margin-bottom: -15px;
+	}
+}
+@media only screen and (min-width: 676px) {
+	.solde-container {
+		padding: 50px 200px;
+		font-size: 42px;
+	}
+	.solde-text {
+		font-size: 16px;
+		margin-bottom: -25px;
+	}
+}
